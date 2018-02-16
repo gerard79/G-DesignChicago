@@ -1,0 +1,198 @@
+/*
+Theme Name: GDesignChicago
+Theme URI: http://modernthemes.net/wordpress-demo/personal
+Template: personal
+Author: Gerard Panganiban
+Author URI: http://g-designstudio.com
+Description: Custom theme for Portfolio website.
+Tags: one-column,two-column,portfolio
+Version: 1.0.5
+Updated: 2018-02-05 09:45:34
+
+*/
+
+body {
+    	font-family: 'Abel', sans-serif;
+}
+body, button, input, select, textarea {
+	font-size: 18px;
+    	line-height: 1.7;
+}
+h1 {
+    	font-family: 'Philosopher', sans-serif;
+	font-size: 2.0em;
+    	font-weight: 900;
+}
+h2, h3, h4, h5, h6, button {
+    	font-family: 'Abel', sans-serif;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border-color: #f5d043 !important;
+    	background: #f5d043 !important;
+	color: #fff !important;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.site-header {
+    	overflow: hidden;
+}
+.hentry {
+    text-align: left;
+}
+#main.site-main {padding-top: 50px;}
+#responsive-menu-wrapper {
+    	margin-top: 28% !important;
+}
+.btn-large {
+    width: 100%;
+    text-align: center;
+    margin: 32px 0 0;
+}
+.btn-large a {
+    background: #f5d043;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 14px 37px;
+}
+
+.responsive-menu-search-box,
+#site-navigation {
+    	display:none;
+}
+#gage_chart tspan,
+#gage_chart text {
+        fill: rgb(64,64,64) !important;
+}
+#responsive-menu-button {
+	background: #f5d043 !important;
+}
+#mt-work .work-item h5 {
+	font-size: 22px;
+}
+h5 span.date {
+	font-size: 16px;
+   	color: #999;
+}
+.work-item h6 {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+}
+#mt-work > div {
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#mt-work .work-item {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#mt-portfolio .portfolio-item {margin-bottom: 0;}
+#mt-portfolio .portfolio-item h2 {display:none;}
+#mt-portfolio .portfolio-item p {text-align:left !important;}
+
+.ngg-gallery-thumbnail a {margin:0 !important;}
+.ngg-gallery-thumbnail {
+    border: 0 !important;
+}
+.navigation.post-navigation {display:none;}
+/* Portfolio Styles */
+.portfolio-item .portelement {
+    width: 100%;
+    padding: 0 0 10px;
+    margin-bottom: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #dedede;
+    background: none;
+}
+.portelement div h3 {
+	font-weight: 700 !important;
+    	font-size: 20px !important;
+}
+#mt-portfolio .portfolio-item p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.portelement div.right-block > div {
+	background: none !important;
+}
+.portelement div.right-block .button-block a, 
+.portelement div.right-block .button-block a:link, 
+.portelement div.right-block .button-block a:visited {
+    padding: 5px 12px !important;
+    background: #f5d043 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 900 !important;
+}
+/* Behance portfolio styles */
+eds-bpm-section li {
+    margin: 5px 6px !important;
+}
+eds-bpm-section li span {
+    margin: 0 0 5px !important;
+    padding: 8px 24px !important;
+    font-size: 15px;
+}
+
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.site-footer {
+    padding: 20px 0 20px 53.5%;
+    background-color: #eee;
+}
+::selection {
+    color: #000;
+    background: #f5d043;
+}
+
+div.wpcf7 input {
+	border-radius: 0px !important;
+	font-size: 22px;
+    font-weight: 900;
+	font-family: 'Abel', sans-serif;
+	padding: 14px 37px;
+}
+div.wpcf7 input:hover {
+	opacity: 0.5;
+	-webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 8000px) {
+#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
+    color: #000 !important;
+    background-color: #f5d043 !important;
+    border-color: #f5d043 !important;
+    opacity: 1.0 !important;
+}
+}
+@media screen and (max-width: 768px) {
+.site-header {
+    	height: 220px !important;
+}
+.btn-large a {
+    font-size: 18px;
+    padding: 13px 25px;
+}
+.site-footer {
+	padding: 20px;
+    	text-align: center;
+}
+}
+@media (max-width:900px) and (min-width:300px) {
+ul, ol {
+    margin: 0 0 1.5em 1em;
+}
+h5 span.date {
+    padding: 8px 0;
+}
+}
